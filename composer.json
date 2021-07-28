@@ -1,20 +1,16 @@
 {
   "name": "masoninthesis/gravityformsuserregistration",
   "description": "Fork of GravityForms User Registration repo so we can use it in our composer architecture.",
-  "type": "wordpress-plugin",
-  "license": "GPL-3.0",
-  "minimum-stability": "dev",
-  "repositories": [
+  "keywords": ["wordpress", "plugin"],
+  "homepage": "https://github.com/masoninthesis/gravityformsuserregistration",
+  "authors": [
     {
-      "type": "vcs",
-      "url": "git@github.com:masoninthesis/gravityformsuserregistration.git"
+      "name": "GravityForms",
+      "homepage": "https://gravityforms.com"
     }
   ],
+  "type": "wordpress-plugin",
   "require": {
-    "php": ">=5.3",
-    "composer/installers": "~1.0"
-  },
-  "extra": {
-    "installer-name": "gravityforms"
+    "php": ">=5.6"
   }
 }
